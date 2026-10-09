@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  automation-tests:
+    name: Python automation tests
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run unittest suite
+        working-directory: automation
+        run: python3 -m unittest discover -s tests -t .
+
+  ios-tests:
+    name: iOS unit and UI tests
+    runs-on: macos-latest
+    needs: automation-tests
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show toolchain
+        run: |
+          xcodebuild -version
+          python3 automation/qa.py simulators
+      - name: Run tests
+        run: python3 automation/qa.py run --suite all --retries 1 --min-coverage 85 --output reports
+      - name: Add report to job summary
+        if: always()
+        run: test -f reports/report.md && cat reports/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: |
+            reports/report.md
+            reports/junit.xml
+            reports/xcodebuild.log
+            reports/TestResults.xcresult

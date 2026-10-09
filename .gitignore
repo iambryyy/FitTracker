@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcresult
+
+# Local secrets (see Config/Secrets.example.xcconfig)
+Config/Secrets.xcconfig
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Test automation output
+automation/reports/

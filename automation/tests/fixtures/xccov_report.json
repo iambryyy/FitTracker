@@ -1,0 +1,57 @@
+{
+  "coveredLines": 1117,
+  "executableLines": 2654,
+  "lineCoverage": 0.4208741522230595,
+  "targets": [
+    {
+      "coveredLines": 1117,
+      "executableLines": 2654,
+      "files": [
+        {
+          "coveredLines": 0,
+          "executableLines": 105,
+          "lineCoverage": 0,
+          "name": "ProgressViews.swift",
+          "path": "/repo/FitTracker/Views/Components/ProgressViews.swift"
+        },
+        {
+          "coveredLines": 125,
+          "executableLines": 128,
+          "lineCoverage": 0.9765625,
+          "name": "ProfileDraft.swift",
+          "path": "/repo/FitTracker/Logic/ProfileDraft.swift"
+        },
+        {
+          "coveredLines": 48,
+          "executableLines": 51,
+          "lineCoverage": 0.9411764705882353,
+          "name": "CalorieNinjasService.swift",
+          "path": "/repo/FitTracker/Services/CalorieNinjasService.swift"
+        },
+        {
+          "coveredLines": 79,
+          "executableLines": 84,
+          "lineCoverage": 0.9404761904761905,
+          "name": "AppEnvironment.swift",
+          "path": "/repo/FitTracker/App/AppEnvironment.swift"
+        },
+        {
+          "coveredLines": 23,
+          "executableLines": 26,
+          "lineCoverage": 0.8846153846153846,
+          "name": "FitTrackerApp.swift",
+          "path": "/repo/FitTracker/FitTrackerApp.swift"
+        },
+        {
+          "coveredLines": 0,
+          "executableLines": 1,
+          "lineCoverage": 0,
+          "name": "UITestSupport.swift",
+          "path": "/repo/Shared/UITestSupport.swift"
+        }
+      ],
+      "lineCoverage": 0.4208741522230595,
+      "name": "FitTracker.app"
+    }
+  ]
+}

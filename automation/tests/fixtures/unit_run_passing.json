@@ -1,0 +1,238 @@
+{
+  "devices": [
+    {
+      "architecture": "arm64",
+      "deviceId": "14BC947C-6A0E-4630-8909-AA9FE6CC62B5",
+      "deviceName": "iPhone 16 Pro",
+      "modelName": "iPhone 16 Pro",
+      "osBuildNumber": "22D8075",
+      "osVersion": "18.3.1",
+      "platform": "iOS Simulator"
+    }
+  ],
+  "testNodes": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "duration": "0.00048s",
+                  "durationInSeconds": 0.00048232078552246094,
+                  "name": "poundsToKilograms()",
+                  "nodeIdentifier": "UnitConversionTests/poundsToKilograms()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/poundsToKilograms()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.00036s",
+                  "durationInSeconds": 0.0003578662872314453,
+                  "name": "kilogramsToPounds()",
+                  "nodeIdentifier": "UnitConversionTests/kilogramsToPounds()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/kilogramsToPounds()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.001s",
+                  "durationInSeconds": 0.0010159015655517578,
+                  "name": "weightRoundTrips()",
+                  "nodeIdentifier": "UnitConversionTests/weightRoundTrips()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/weightRoundTrips()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.00025s",
+                  "durationInSeconds": 0.00024509429931640625,
+                  "name": "feetAndInchesToCentimeters()",
+                  "nodeIdentifier": "UnitConversionTests/feetAndInchesToCentimeters()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/feetAndInchesToCentimeters()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "children": [
+                    {
+                      "duration": "0.00045s",
+                      "durationInSeconds": 0.00045013427734375,
+                      "name": "0.0, 0, 0",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)?args=3ae00aafea674c2a83fe2c0dcc47e4a4d43603e1f4b418bb76cb0c2ecb4ebca8",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.002s",
+                      "durationInSeconds": 0.002000093460083008,
+                      "name": "152.4, 5, 0",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)?args=6e647552de5b6e9ba7e78d6828a8a337a5db97c18514fdfa66270ae6f35c06ef",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.002s",
+                      "durationInSeconds": 0.0020177364349365234,
+                      "name": "180.34, 5, 11",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)?args=0aa9974e9aaa86748f4dcadd12bfac047ca1e094c85768553747965880d79a3d",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.0012s",
+                      "durationInSeconds": 0.0012240409851074219,
+                      "name": "181.0, 5, 11",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)?args=3ee9a21d6186baa4e127ec7a1fa4a17f07428fbf6680ff6319c385600feda9fe",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.000055s",
+                      "durationInSeconds": 5.507469177246094e-05,
+                      "name": "182.4, 6, 0",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)?args=f55a21a5543e1ef32dcb16cb45e8af1acfde155f6d95e0d39439869ccac744c0",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    }
+                  ],
+                  "duration": "0.0011s",
+                  "durationInSeconds": 0.0011494159698486328,
+                  "name": "Centimetres to feet and inches rounds to the nearest inch",
+                  "nodeIdentifier": "UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests/centimetersToFeetAndInches(centimeters:feet:inches:)",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "UnitConversion",
+              "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/UnitConversionTests",
+              "nodeType": "Test Suite",
+              "result": "Passed"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "duration": "0.00018s",
+                      "durationInSeconds": 0.00018095970153808594,
+                      "name": "0, .snack",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=bea3cda0b6997f439ad7a1091d749c0d21da0067f5e4c60d1b0e7785e8b2162a",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.024s",
+                      "durationInSeconds": 0.0240628719329834,
+                      "name": "3, .snack",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=e3a598601432a666954bc659d05d801a692da9dbe8d5c3e6b7f2b2e5180dad35",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.025s",
+                      "durationInSeconds": 0.02528691291809082,
+                      "name": "4, .breakfast",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=cabdc326ae62997eedc5d14926ea3c9822986ae61c09d5195a937cd51226d9b3",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.000095s",
+                      "durationInSeconds": 9.512901306152344e-05,
+                      "name": "10, .breakfast",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=492adec7f40d147781f4727a2427c1d8a8c9561818b0a7f07360dc574093aba9",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.00012s",
+                      "durationInSeconds": 0.00011706352233886719,
+                      "name": "11, .lunch",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=e79619699b47ce98bbadbd63adf68615a817142b8481f47c7be888356a759f3c",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.00013s",
+                      "durationInSeconds": 0.0001277923583984375,
+                      "name": "14, .lunch",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=ee4e0c58f0bd8016bd5dedacd1fd068aa5229cdb67480493ac7e46c7e6fcff8a",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.0025s",
+                      "durationInSeconds": 0.002521038055419922,
+                      "name": "15, .snack",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=2a2f2c73987669b38c83feb68b5e8b4e3d31cc0dbdf1080236840fe1b6900fe6",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.0024s",
+                      "durationInSeconds": 0.002398967742919922,
+                      "name": "16, .snack",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=6171e2b43d66ad159ec665c5bbdd84858cc2cff1e4b002dc0aede8aa7114fcc2",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.0026s",
+                      "durationInSeconds": 0.0025970935821533203,
+                      "name": "17, .dinner",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=bef4eceab51956aa31944389178cd8b0574c886de625f166adf0b2678afbc737",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.00074s",
+                      "durationInSeconds": 0.0007350444793701172,
+                      "name": "21, .dinner",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=70e7f1aa1f2ac5af2b203d5c3579e0e648cc35fef1eca62e7f026103eb6a3609",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "0.00019s",
+                      "durationInSeconds": 0.0001881122589111328,
+                      "name": "22, .snack",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)?args=ec238295dcbc77a471c0413378a521fda95fa4f376bf027e0dafd7bda9b0eb81",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    }
+                  ],
+                  "duration": "0.0053s",
+                  "durationInSeconds": 0.005300998687744141,
+                  "name": "Suggested meal follows the time of day",
+                  "nodeIdentifier": "MealTypeTests/suggested(hour:expected:)",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests/suggested(hour:expected:)",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "MealType",
+              "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests/MealTypeTests",
+              "nodeType": "Test Suite",
+              "result": "Passed"
+            }
+          ],
+          "name": "FitTrackerTests",
+          "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerTests",
+          "nodeType": "Unit test bundle",
+          "result": "Passed"
+        }
+      ],
+      "name": "FitTracker",
+      "nodeType": "Test Plan",
+      "result": "Passed"
+    }
+  ],
+  "testPlanConfigurations": [
+    {
+      "configurationId": "1",
+      "configurationName": "Test Scheme Action"
+    }
+  ]
+}

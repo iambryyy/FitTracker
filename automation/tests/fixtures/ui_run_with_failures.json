@@ -1,0 +1,168 @@
+{
+  "devices": [
+    {
+      "architecture": "arm64",
+      "deviceId": "14BC947C-6A0E-4630-8909-AA9FE6CC62B5",
+      "deviceName": "iPhone 16 Pro",
+      "modelName": "iPhone 16 Pro",
+      "osBuildNumber": "22D8075",
+      "osVersion": "18.3.1",
+      "platform": "iOS Simulator"
+    }
+  ],
+  "testNodes": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "duration": "4s",
+                      "durationInSeconds": 4.852940082550049,
+                      "name": "Dark Appearance, Portrait",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FitTrackerUITestsLaunchTests/testLaunch",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "4s",
+                      "durationInSeconds": 4.778905034065247,
+                      "name": "Light Appearance, Landscape Right",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FitTrackerUITestsLaunchTests/testLaunch",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "5s",
+                      "durationInSeconds": 5.515837907791138,
+                      "name": "Light Appearance, Portrait",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FitTrackerUITestsLaunchTests/testLaunch",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    },
+                    {
+                      "duration": "4s",
+                      "durationInSeconds": 4.707953929901123,
+                      "name": "Unspecified, Portrait Upside Down",
+                      "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FitTrackerUITestsLaunchTests/testLaunch",
+                      "nodeType": "Arguments",
+                      "result": "Passed"
+                    }
+                  ],
+                  "duration": "4s",
+                  "durationInSeconds": 4.963909238576889,
+                  "name": "testLaunch()",
+                  "nodeIdentifier": "FitTrackerUITestsLaunchTests/testLaunch",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FitTrackerUITestsLaunchTests/testLaunch",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "FitTrackerUITestsLaunchTests",
+              "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FitTrackerUITestsLaunchTests",
+              "nodeType": "Test Suite",
+              "result": "Passed"
+            },
+            {
+              "children": [
+                {
+                  "duration": "6s",
+                  "durationInSeconds": 6.797773957252502,
+                  "name": "testDashboardStartsWithNothingLogged()",
+                  "nodeIdentifier": "FoodLoggingUITests/testDashboardStartsWithNothingLogged()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FoodLoggingUITests/testDashboardStartsWithNothingLogged",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "35s",
+                  "durationInSeconds": 35.37469708919525,
+                  "name": "testSameFoodCanBeLoggedTwiceAndRemovedIndependently()",
+                  "nodeIdentifier": "FoodLoggingUITests/testSameFoodCanBeLoggedTwiceAndRemovedIndependently()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FoodLoggingUITests/testSameFoodCanBeLoggedTwiceAndRemovedIndependently",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "XCTAssertEqual failed: (\"Calories, 89 kcal\") is not equal to (\"89 kcal\")",
+                      "nodeType": "Failure Message",
+                      "sourceLocation": {
+                        "filePath": "/repo/FitTrackerUITests/FoodLoggingUITests.swift",
+                        "lineNumber": 54
+                      }
+                    }
+                  ],
+                  "duration": "16s",
+                  "durationInSeconds": 16.674040913581848,
+                  "name": "testServingsStepperScalesCaloriesBeforeAndAfterAdding()",
+                  "nodeIdentifier": "FoodLoggingUITests/testServingsStepperScalesCaloriesBeforeAndAfterAdding()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FoodLoggingUITests/testServingsStepperScalesCaloriesBeforeAndAfterAdding",
+                  "nodeType": "Test Case",
+                  "result": "Failed"
+                }
+              ],
+              "name": "FoodLoggingUITests",
+              "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/FoodLoggingUITests",
+              "nodeType": "Test Suite",
+              "result": "Failed"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "XCTAssertTrue failed - Expected \"dashboard.greeting\" StaticText to exist",
+                      "nodeType": "Failure Message",
+                      "sourceLocation": {
+                        "filePath": "/repo/FitTrackerUITests/Screens/Screens.swift",
+                        "lineNumber": 61
+                      }
+                    }
+                  ],
+                  "duration": "13s",
+                  "durationInSeconds": 13.703648924827576,
+                  "name": "testIncreasingWeightRaisesTheCalorieGoal()",
+                  "nodeIdentifier": "ProfileUITests/testIncreasingWeightRaisesTheCalorieGoal()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/ProfileUITests/testIncreasingWeightRaisesTheCalorieGoal",
+                  "nodeType": "Test Case",
+                  "result": "Failed"
+                },
+                {
+                  "duration": "4s",
+                  "durationInSeconds": 4.828376054763794,
+                  "name": "testProfileTabShowsTheSavedProfile()",
+                  "nodeIdentifier": "ProfileUITests/testProfileTabShowsTheSavedProfile()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/ProfileUITests/testProfileTabShowsTheSavedProfile",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "ProfileUITests",
+              "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests/ProfileUITests",
+              "nodeType": "Test Suite",
+              "result": "Failed"
+            }
+          ],
+          "name": "FitTrackerUITests",
+          "nodeIdentifierURL": "test://com.apple.xcode/FitTracker/FitTrackerUITests",
+          "nodeType": "UI test bundle",
+          "result": "Failed"
+        }
+      ],
+      "name": "FitTracker",
+      "nodeType": "Test Plan",
+      "result": "Failed"
+    }
+  ],
+  "testPlanConfigurations": [
+    {
+      "configurationId": "1",
+      "configurationName": "Test Scheme Action"
+    }
+  ]
+}

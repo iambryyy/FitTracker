@@ -1,0 +1,9 @@
+// Build settings for the FitTracker app target.
+//
+// The CalorieNinjas API key is deliberately not stored in source control.
+// To use live food search, copy Secrets.example.xcconfig to Secrets.xcconfig
+// and put your key there. Without a key the app uses its bundled sample foods.
+
+CALORIE_NINJAS_API_KEY =
+
+#include? "Secrets.xcconfig"

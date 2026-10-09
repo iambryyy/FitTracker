@@ -1,0 +1,90 @@
+{
+  "devices": {
+    "com.apple.CoreSimulator.SimRuntime.iOS-18-3": [
+      {
+        "udid": "14BC947C-6A0E-4630-8909-AA9FE6CC62B5",
+        "name": "iPhone 16 Pro",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "FB54D9D6-9570-471E-8FDE-C16C3CD5BFFA",
+        "name": "iPhone 16 Pro Max",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "8D494E2E-DF12-4D27-BBAF-5DEEF01C5BAD",
+        "name": "iPhone 16e",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "EE38F128-25C2-4FC1-93B4-378677D95D49",
+        "name": "iPhone 16",
+        "state": "Shutdown",
+        "isAvailable": true
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-17-0": [
+      {
+        "udid": "E34B4E9B-31C9-470D-BAC8-659CFCDB858B",
+        "name": "iPhone 15 Pro",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "D133029F-C487-4FC3-8314-B89AB75F8061",
+        "name": "iPhone 15 Pro Max",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "A2858DB9-0D85-4D36-9391-ED07B91A177C",
+        "name": "iPhone 15",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "42392DFE-FF08-4D9B-8D51-662B306FAB17",
+        "name": "iPhone 15 Plus",
+        "state": "Shutdown",
+        "isAvailable": true
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-17-5": [
+      {
+        "udid": "E1341BC5-FB28-4BAB-AE5D-14926F510D65",
+        "name": "iPhone 15 Pro",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "EFC1BFAF-174C-47E4-9FB6-7C2127AB1403",
+        "name": "iPhone 15 Pro Max",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "31BCBF98-072C-497D-BD3F-E6272EEBA118",
+        "name": "iPhone 15",
+        "state": "Shutdown",
+        "isAvailable": true
+      },
+      {
+        "udid": "0AB25842-1B7C-4873-93A9-A804328E1478",
+        "name": "iPhone 15 Plus",
+        "state": "Shutdown",
+        "isAvailable": true
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.watchOS-11-0": [
+      {
+        "udid": "00000000-0000-0000-0000-00000000AAAA",
+        "name": "Apple Watch Series 10 (46mm)",
+        "state": "Shutdown",
+        "isAvailable": true
+      }
+    ]
+  }
+}
